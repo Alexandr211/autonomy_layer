@@ -2,7 +2,7 @@
 
 Early-stage project skeleton for Sprint 1 (Foundation) and Sprint 2 (Orchestration v1).
 
-## Sprint 2 (в работе)
+## Sprint 2 (завершен)
 
 - Scope и приемка: [docs/sprint2_scope.md](docs/sprint2_scope.md)
 - ROS 2 контракт (черновик): [docs/ros2_mission_contract_v1.md](docs/ros2_mission_contract_v1.md)
@@ -12,6 +12,19 @@ Early-stage project skeleton for Sprint 1 (Foundation) and Sprint 2 (Orchestrati
 - Webots на хосте (S2-B8): [docs/webots_host_s2b8.md](docs/webots_host_s2b8.md), проверка пакетов: `scripts/check_webots_ros2.sh` (после `source /opt/ros/humble/setup.bash`)
 - Webots демо (S2-B9): [docs/webots_s2b9_warehouse_pilot_demo.md](docs/webots_s2b9_warehouse_pilot_demo.md)
 - Sprint 2 report: [docs/reports/autonomy_layer_sprint2_orchestration_v1.md](docs/reports/autonomy_layer_sprint2_orchestration_v1.md)
+
+## План спринтов (12 недель)
+
+Связанные документы: [docs/simulator_alternatives.md](docs/simulator_alternatives.md), [docs/program/autonomy_layer_program_fixed_decision.md](docs/program/autonomy_layer_program_fixed_decision.md).
+
+| Sprint | Недели | Документы |
+| --- | --- | --- |
+| 1 Foundation | 1-2 | [отчет](docs/reports/autonomy_layer_sprint1_foundation.md), [доска](docs/boards/autonomy_layer_sprint1_execution_board.md) |
+| 2 Orchestration v1 | 3-4 | [спека](docs/sprints/sprint2_orchestration_v1.md), [доска](docs/boards/autonomy_layer_sprint2_execution_board.md), [отчет](docs/reports/autonomy_layer_sprint2_orchestration_v1.md) |
+| 3 Reliability v1 | 5-6 | [docs/sprints/sprint3_reliability_v1.md](docs/sprints/sprint3_reliability_v1.md) |
+| 4 Pilot packaging | 7-8 | [docs/sprints/sprint4_pilot_packaging.md](docs/sprints/sprint4_pilot_packaging.md) |
+| 5 Pre-pilot hardening I | 9-10 | [docs/sprints/sprint5_prepilot_hardening.md](docs/sprints/sprint5_prepilot_hardening.md) |
+| 6 Pre-pilot hardening II | 11-12 | [docs/sprints/sprint6_prepilot_hardening.md](docs/sprints/sprint6_prepilot_hardening.md) |
 
 ## Sprint 1 Goals
 

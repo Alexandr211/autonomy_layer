@@ -88,7 +88,7 @@ bash scripts/check_webots_ros2.sh
 Запуск S2-B9 демо:
 
 ```bash
-bash scripts/webots_run_s2b9_demo.sh
+/workspace/autonomy_layer$ ./scripts/webots_run_s2b9_demo.sh
 ```
 
 Ожидаемый результат:
