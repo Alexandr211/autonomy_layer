@@ -1,0 +1,11 @@
+# Goal
+Mission mission
+---
+# Result
+MissionStatus status
+bool success
+string replay_id
+string last_error
+---
+# Feedback
+MissionStatus status

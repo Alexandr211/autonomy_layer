@@ -1,0 +1,20 @@
+# ROS 2 Humble + PyBullet. Webots для 3D/демо — на хосте; см. docs/simulator_alternatives.md
+#
+#   docker compose build
+#   docker compose run --rm autonomy-sim ros2 topic list
+#   docker compose run --rm autonomy-sim python3 -c "import pybullet; print(pybullet.getAPIVersion())"
+
+services:
+  autonomy-sim:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: autonomy-layer:sim-humble
+    container_name: autonomy-layer-sim
+    stdin_open: true
+    tty: true
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    environment:
+      - ROS_DOMAIN_ID=0
